@@ -1,5 +1,5 @@
 import { whatsappLink } from "@/lib/whatsapp";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 
 export function Contato() {
   return (
@@ -10,7 +10,7 @@ export function Contato() {
           Vamos conversar sobre o seu condomínio
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Entre em contato pelo WhatsApp ou e-mail. Atendemos condomínios no Rio Grande do Sul.
+          Entre em contato pelo WhatsApp. Atendemos condomínios no Rio Grande do Sul.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-6 sm:flex-row">
           <a
@@ -23,17 +23,12 @@ export function Contato() {
             (51) 99918-7885
           </a>
         </div>
-        <div className="mt-12 flex flex-col items-center justify-center gap-6 text-sm text-muted-foreground sm:flex-row">
-          <span className="inline-flex items-center gap-2">
-            <MapPin className="h-4 w-4 text-primary" aria-hidden="true" />
-            Rio Grande do Sul
-          </span>
-          <span className="inline-flex items-center gap-2">
-            <Mail className="h-4 w-4 text-primary" aria-hidden="true" />
-            contato@blombergauditoria.com.br
-          </span>
+        <div className="mt-12 flex items-center justify-center gap-2 text-sm text-muted-foreground">
+          <MapPin className="h-4 w-4 text-primary" aria-hidden="true" />
+          Rio Grande do Sul
         </div>
       </div>
     </section>
   );
 }
+
