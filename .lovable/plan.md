@@ -45,7 +45,7 @@ Nada de número, prazo ou resultado inventado: o que faltar fica de fora ou marc
 3. **Auditoria condominial**: bloco principal, com destaque para a auditoria investigativa (fraudes, irregularidades, desvios) e a auditoria anual de contas.
 4. **BPO financeiro e contábil**: cartões com os seis serviços listados acima, cada um com a descrição curta já usada nos destaques.
 5. **Como funciona**: 3 passos, do diagnóstico inicial ao relatório entregue.
-6. **Quem assina o trabalho**: credenciais reais (Ciências Contábeis, MBA em Gestão Financeira e Tributária, 25 anos de controladoria).
+6. **Quem assina o trabalho**: foto da Patricia Bloomberg com as credenciais reais (Ciências Contábeis, MBA, 25 anos de controladoria, 15 anos de auditoria).
 7. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança).
 8. **Depoimentos**: só entram se você enviar depoimentos reais.
 9. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
