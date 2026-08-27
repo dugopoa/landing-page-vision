@@ -22,8 +22,9 @@ export function Hero() {
           Transparência nas contas do seu condomínio
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-          Auditoria condominial investigativa e BPO financeiro para síndicos e conselhos fiscais
-          que não aceitam dúvidas sobre o dinheiro dos moradores.
+          Auditoria condominial investigativa, BPO financeiro e contabilidade para empresas de
+          serviço. Transformamos números em transparência, controle e segurança para quem administra
+          dinheiro de terceiros.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
