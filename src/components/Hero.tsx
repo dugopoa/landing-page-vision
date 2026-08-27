@@ -20,7 +20,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-background/80" aria-hidden="true" />
       <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-          Auditoria e BPO para condomínios
+          Auditoria para condomínios e BPO para empresas de serviço
         </p>
         <h1 className="text-4xl font-semibold leading-tight text-foreground sm:text-5xl lg:text-6xl">
           Transparência nas contas do seu condomínio
