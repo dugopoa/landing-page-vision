@@ -13,28 +13,45 @@ O Instagram bloqueia leitura automática, mas o logotipo e o print do perfil já
 - Paleta: azul-marinho profundo como base, dourado como destaque, branco nos textos
 - Estilo: serifada elegante no nome, caixa alta com espaçamento largo nos apoios, contexto visual de edifícios residenciais
 
+## Serviços confirmados (dos destaques do Instagram)
+
+**Auditoria condominial**
+
+- Auditoria condominial investigativa: processo detalhado para identificar fraudes, irregularidades ou desvios de recursos no condomínio.
+- Auditoria anual das contas do condomínio.
+
+**BPO financeiro e contábil**
+
+- Conciliação bancária e contábil: verificação e reconciliação de saldos bancários com os registros contábeis, garantindo precisão nos lançamentos.
+- Gestão de fluxo de caixa: monitoramento diário de entradas e saídas e análise detalhada das movimentações.
+- Controle de contas a pagar e a receber.
+- Emissão de notas fiscais e controle tributário, com conformidade fiscal.
+- Elaboração de relatórios financeiros e contábeis, com visão estratégica para o negócio.
+- Planejamento tributário: análise da situação fiscal, otimização da carga tributária dentro da lei e conformidade legal.
+
 ## O que ainda preciso de você
 
 1. A frase completa dos "15 anos de..." que aparece cortada no perfil.
-2. Lista dos serviços como você os anuncia (ex.: auditoria de prestação de contas, revisão de taxas e rateios, BPO financeiro, conciliação bancária, folha e encargos).
-3. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
-4. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
+2. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
+3. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
 
-Sem esses itens, monto as seções com texto provisório marcado e substituo depois. Nada de número ou resultado inventado.
+Nada de número, prazo ou resultado inventado: o que faltar fica de fora ou marcado para você completar.
 
 ## Estrutura da página (uma página, rolagem contínua)
 
 1. **Topo fixo enxuto**: logo à esquerda, um botão "Falar no WhatsApp" à direita.
 2. **Hero**: título voltado a síndicos e conselhos fiscais de condomínio, uma linha de apoio, um único botão para WhatsApp. Fundo escuro com imagem de prédio tratada, no clima do logo.
-3. **Serviços**: cartões com os serviços reais (auditoria e BPO), quantidade conforme o que existir.
-4. **Como funciona**: 3 passos, do diagnóstico inicial ao relatório entregue.
-5. **Quem assina o trabalho**: credenciais reais (formação, MBA, 25 anos de controladoria) como prova de autoridade.
-6. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança) como diferenciais concretos.
-7. **Depoimentos**: só entram se você enviar depoimentos reais.
-8. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
-9. **Rodapé simples**: logo, contato, Instagram.
+3. **Auditoria condominial**: bloco principal, com destaque para a auditoria investigativa (fraudes, irregularidades, desvios) e a auditoria anual de contas.
+4. **BPO financeiro e contábil**: cartões com os seis serviços listados acima, cada um com a descrição curta já usada nos destaques.
+5. **Como funciona**: 3 passos, do diagnóstico inicial ao relatório entregue.
+6. **Quem assina o trabalho**: credenciais reais (Ciências Contábeis, MBA em Gestão Financeira e Tributária, 25 anos de controladoria).
+7. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança).
+8. **Depoimentos**: só entram se você enviar depoimentos reais.
+9. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
+10. **Rodapé simples**: logo, contato, Instagram.
 
 Todos os botões levam ao WhatsApp `wa.me/5551999187885` com mensagem pré-preenchida (ex.: "Olá, sou síndico e quero falar sobre auditoria do meu condomínio").
+
 
 
 ## Identidade visual na página
