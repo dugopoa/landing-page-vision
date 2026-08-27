@@ -1,45 +1,55 @@
-# Landing page — Bloomberg Consultoria
+# Landing page — Blomberg Auditoria e BPO
 
 ## Situação da pesquisa
 
-O Instagram bloqueia leitura automática de perfis (retornou acesso negado), então a identidade visual e a lista de serviços vão sair do material que você enviar: prints do perfil, destaques, posts de serviços e o arquivo do logo.
+O Instagram bloqueia leitura automática de perfis (retornou acesso negado). O logotipo já foi recebido e define a identidade. Falta apenas o conteúdo textual real (serviços e contato).
 
-## O que envio pedir de você
+Do logo já está definido:
 
-1. Logo em arquivo (PNG com fundo transparente ou SVG, se tiver).
-2. Prints: bio do perfil, destaques de serviços, 3–5 posts que representem bem o visual.
-3. Número de WhatsApp e horário de atendimento.
-4. Se houver: depoimentos reais de clientes e fotos da equipe/escritório.
+- Nome correto: **Blomberg Auditoria e BPO**
+- Nicho: **auditoria condominial**
+- Pilares: auditoria, análise, processos, confiança
+- Assinatura: "Transparência. Eficiência. Valor."
+- Paleta: azul-marinho profundo como base, dourado como destaque, branco para textos
+- Estilo: serifado elegante no nome, sem serifa em caixa alta com espaçamento largo nos apoios; contexto visual de edifícios residenciais
 
-Enquanto o material não chega, monto a estrutura com conteúdo provisório claramente marcado e substituo depois.
+## O que ainda preciso de você
+
+1. Lista dos serviços como você os anuncia (ex.: auditoria de contas do condomínio, revisão de prestação de contas, BPO financeiro, folha, conciliação bancária).
+2. Número de WhatsApp e cidade/região de atendimento.
+3. Se houver: depoimentos reais de síndicos/clientes e número de condomínios atendidos.
+
+Sem isso, monto as seções com texto provisório marcado e substituo depois. Nada de número ou resultado inventado.
 
 ## Estrutura da página (uma página, rolagem contínua)
 
 1. **Topo fixo enxuto**: logo à esquerda, um botão "Falar no WhatsApp" à direita.
-2. **Hero**: título com a proposta central da consultoria, uma linha de apoio, um único botão para WhatsApp.
-3. **Serviços**: cartões com os serviços reais extraídos dos prints (quantidade definida pelo que existir, sem inventar).
-4. **Como funciona**: 3 passos do primeiro contato até a entrega.
-5. **Por que a Bloomberg Consultoria**: diferenciais concretos (experiência, área de atuação, resultados só se comprováveis).
-6. **Depoimentos**: só entram se você enviar depoimentos reais; caso contrário a seção não existe.
-7. **Contato final**: bloco de chamada com WhatsApp, e-mail e cidade/atendimento remoto.
-8. **Rodapé simples**: logo, contato, redes sociais.
+2. **Hero**: título voltado a síndicos e conselhos de condomínio, uma linha de apoio, um único botão para WhatsApp. Fundo escuro com imagem de prédio tratada, no clima do logo.
+3. **Serviços**: cartões com os serviços reais (auditoria e BPO), quantidade conforme o que existir.
+4. **Como funciona**: 3 passos, do diagnóstico inicial ao relatório entregue.
+5. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança) como diferenciais concretos.
+6. **Depoimentos**: só entram se você enviar depoimentos reais.
+7. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
+8. **Rodapé simples**: logo, contato, Instagram.
 
-Todos os botões de ação levam para o WhatsApp com mensagem pré-preenchida (ex.: "Olá, vim pelo site e quero falar sobre consultoria").
+Todos os botões levam ao WhatsApp com mensagem pré-preenchida (ex.: "Olá, sou síndico e quero falar sobre auditoria do meu condomínio").
 
-## Identidade visual
+## Identidade visual na página
 
-Depois de ver o logo e os prints, extraio paleta, tipografia e tom. Direção provável para consultoria: base sóbria (tons escuros ou neutros profundos), uma cor de destaque vinda do logo, tipografia com título de mais personalidade e texto muito legível, cantos e espaçamento consistentes. Nada de gradiente roxo genérico.
+Tokens derivados do logo: fundo azul-marinho profundo, superfícies em azul um tom acima, dourado reservado para detalhes, botões e números, texto claro de alta legibilidade. Título em serifada de personalidade combinando com o logo; apoios e rótulos em caixa alta com espaçamento largo. Cantos discretos, linhas finas douradas como divisores. Sem gradiente roxo, sem visual genérico de startup.
 
-Se preferir, posso gerar 3 direções visuais renderizadas para você escolher antes de construir.
+O logo entra como arquivo real no topo e no rodapé (via asset CDN), nunca redesenhado.
 
 ## Detalhes técnicos
 
-- Página construída em `src/routes/index.tsx` (substitui o placeholder atual), dividida em componentes de seção em `src/components/`.
-- Cores, fontes e raios definidos como tokens no design system em `src/styles.css`; nenhuma cor fixa nos componentes.
-- Link do WhatsApp via `https://wa.me/<numero>?text=...`, sem backend.
+- Página em `src/routes/index.tsx` (substitui o placeholder), seções como componentes em `src/components/`.
+- Cores, fontes e raios como tokens em `src/styles.css`; nenhuma cor fixa nos componentes.
+- Fontes carregadas por `<link>` no `src/routes/__root.tsx`.
+- Logo publicado com o CLI de assets e importado pelo ponteiro `.asset.json`; favicon gerado a partir do logo.
+- WhatsApp via `https://wa.me/<numero>?text=...`, sem backend.
 - Responsivo mobile-first; imagens com `loading="lazy"` e texto alternativo.
-- SEO: título e descrição próprios da rota, um único H1, HTML semântico, JSON-LD de negócio local/serviço profissional.
-- Sem banco de dados nem login nesta etapa. Se depois você quiser formulário com registro de leads, aí ativamos o backend.
+- SEO: título e descrição próprios da rota, um único H1, HTML semântico, JSON-LD de serviço profissional/negócio local.
+- Sem banco de dados nem login nesta etapa. Formulário com registro de leads fica para depois, se quiser, com backend ativado.
 
 ## Fora do escopo agora
 
