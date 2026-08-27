@@ -1,9 +1,12 @@
-import { whatsappLink } from "@/lib/whatsapp";
+import { useWhatsAppLink } from "@/hooks/use-whatsapp-link";
 
 const LOGO_URL = "/__l5e/assets-v1/e43b6d32-bf3c-4757-b9b3-32fa29c54447/blomberg-logo-circle.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
+  const { href } = useWhatsAppLink(
+    "Olá, sou síndico e quero falar sobre auditoria do meu condomínio."
+  );
 
   return (
     <footer className="border-t border-border bg-background py-12">
@@ -22,7 +25,7 @@ export function Footer() {
           </a>
           <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground md:flex-row md:gap-6">
             <a
-              href={whatsappLink("Olá, sou síndico e quero falar sobre auditoria do meu condomínio.")}
+              href={href}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-foreground"
