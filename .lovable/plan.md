@@ -6,7 +6,9 @@ O Instagram bloqueia leitura automática, mas o logotipo e o print do perfil já
 
 - Nome: **Blomberg Auditoria e BPO** (perfil @bloombergconsultoria, "Consutoria e Assessoria")
 - Nicho: **auditoria condominial**
-- Credenciais do responsável: Bacharel em Ciências Contábeis; MBA em Gestão Financeira e Tributária; 25 anos de Controladoria; 15 anos de (texto cortado no print — preciso do complemento)
+- Responsável: **Patricia Bloomberg**, Bacharel em Ciências Contábeis e MBA em Gestão Financeira e Tributária
+- Experiência: 25 anos de Controladoria; 15 anos de Auditoria
+- Foto da responsável disponível para a seção "Quem assina o trabalho"
 - WhatsApp: **51 99918-7885** (DDD 51, Rio Grande do Sul)
 - Pilares do logo: auditoria, análise, processos, confiança
 - Assinatura: "Transparência. Eficiência. Valor."
@@ -31,9 +33,8 @@ O Instagram bloqueia leitura automática, mas o logotipo e o print do perfil já
 
 ## O que ainda preciso de você
 
-1. A frase completa dos "15 anos de..." que aparece cortada no perfil.
-2. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
-3. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
+1. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
+2. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
 
 Nada de número, prazo ou resultado inventado: o que faltar fica de fora ou marcado para você completar.
 
@@ -44,7 +45,7 @@ Nada de número, prazo ou resultado inventado: o que faltar fica de fora ou marc
 3. **Auditoria condominial**: bloco principal, com destaque para a auditoria investigativa (fraudes, irregularidades, desvios) e a auditoria anual de contas.
 4. **BPO financeiro e contábil**: cartões com os seis serviços listados acima, cada um com a descrição curta já usada nos destaques.
 5. **Como funciona**: 3 passos, do diagnóstico inicial ao relatório entregue.
-6. **Quem assina o trabalho**: credenciais reais (Ciências Contábeis, MBA em Gestão Financeira e Tributária, 25 anos de controladoria).
+6. **Quem assina o trabalho**: foto da Patricia Bloomberg com as credenciais reais (Ciências Contábeis, MBA, 25 anos de controladoria, 15 anos de auditoria).
 7. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança).
 8. **Depoimentos**: só entram se você enviar depoimentos reais.
 9. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
@@ -58,14 +59,14 @@ Todos os botões levam ao WhatsApp `wa.me/5551999187885` com mensagem pré-preen
 
 Tokens derivados do logo: fundo azul-marinho profundo, superfícies em azul um tom acima, dourado reservado para detalhes, botões e números, texto claro de alta legibilidade. Título em serifada de personalidade combinando com o logo; apoios e rótulos em caixa alta com espaçamento largo. Cantos discretos, linhas finas douradas como divisores. Sem gradiente roxo, sem visual genérico de startup.
 
-O logo entra como arquivo real no topo e no rodapé (via asset CDN), nunca redesenhado.
+O logo entra como arquivo real no topo e no rodapé (via asset CDN), nunca redesenhado. A foto da responsável também será publicada como asset e usada na seção "Quem assina o trabalho".
 
 ## Detalhes técnicos
 
 - Página em `src/routes/index.tsx` (substitui o placeholder), seções como componentes em `src/components/`.
 - Cores, fontes e raios como tokens em `src/styles.css`; nenhuma cor fixa nos componentes.
 - Fontes carregadas por `<link>` no `src/routes/__root.tsx`.
-- Logo publicado com o CLI de assets e importado pelo ponteiro `.asset.json`; favicon gerado a partir do logo.
+- Logo e foto da responsável publicados com o CLI de assets e importados pelos ponteiros `.asset.json`; favicon gerado a partir do logo.
 - WhatsApp via `https://wa.me/<numero>?text=...`, sem backend.
 - Responsivo mobile-first; imagens com `loading="lazy"` e texto alternativo.
 - SEO: título e descrição próprios da rota, um único H1, HTML semântico, JSON-LD de serviço profissional/negócio local.
