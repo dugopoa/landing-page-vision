@@ -1,8 +1,12 @@
-import { whatsappLink } from "@/lib/whatsapp";
+import { useWhatsAppLink } from "@/hooks/use-whatsapp-link";
 
 const HERO_IMAGE = "/hero-building.jpg";
 
 export function Hero() {
+  const { href } = useWhatsAppLink(
+    "Olá, sou síndico e quero falar sobre auditoria do meu condomínio."
+  );
+
   return (
     <section
       id="top"
@@ -28,9 +32,7 @@ export function Hero() {
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href={whatsappLink(
-              "Olá, sou síndico e quero falar sobre auditoria do meu condomínio."
-            )}
+            href={href}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
