@@ -1,38 +1,41 @@
 # Landing page — Blomberg Auditoria e BPO
 
-## Situação da pesquisa
+## Base de conteúdo já confirmada
 
-O Instagram bloqueia leitura automática de perfis (retornou acesso negado). O logotipo já foi recebido e define a identidade. Falta apenas o conteúdo textual real (serviços e contato).
+O Instagram bloqueia leitura automática, mas o logotipo e o print do perfil já trazem o essencial:
 
-Do logo já está definido:
-
-- Nome correto: **Blomberg Auditoria e BPO**
+- Nome: **Blomberg Auditoria e BPO** (perfil @bloombergconsultoria, "Consutoria e Assessoria")
 - Nicho: **auditoria condominial**
-- Pilares: auditoria, análise, processos, confiança
+- Credenciais do responsável: Bacharel em Ciências Contábeis; MBA em Gestão Financeira e Tributária; 25 anos de Controladoria; 15 anos de (texto cortado no print — preciso do complemento)
+- WhatsApp: **51 99918-7885** (DDD 51, Rio Grande do Sul)
+- Pilares do logo: auditoria, análise, processos, confiança
 - Assinatura: "Transparência. Eficiência. Valor."
-- Paleta: azul-marinho profundo como base, dourado como destaque, branco para textos
-- Estilo: serifado elegante no nome, sem serifa em caixa alta com espaçamento largo nos apoios; contexto visual de edifícios residenciais
+- Paleta: azul-marinho profundo como base, dourado como destaque, branco nos textos
+- Estilo: serifada elegante no nome, caixa alta com espaçamento largo nos apoios, contexto visual de edifícios residenciais
 
 ## O que ainda preciso de você
 
-1. Lista dos serviços como você os anuncia (ex.: auditoria de contas do condomínio, revisão de prestação de contas, BPO financeiro, folha, conciliação bancária).
-2. Número de WhatsApp e cidade/região de atendimento.
-3. Se houver: depoimentos reais de síndicos/clientes e número de condomínios atendidos.
+1. A frase completa dos "15 anos de..." que aparece cortada no perfil.
+2. Lista dos serviços como você os anuncia (ex.: auditoria de prestação de contas, revisão de taxas e rateios, BPO financeiro, conciliação bancária, folha e encargos).
+3. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
+4. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
 
-Sem isso, monto as seções com texto provisório marcado e substituo depois. Nada de número ou resultado inventado.
+Sem esses itens, monto as seções com texto provisório marcado e substituo depois. Nada de número ou resultado inventado.
 
 ## Estrutura da página (uma página, rolagem contínua)
 
 1. **Topo fixo enxuto**: logo à esquerda, um botão "Falar no WhatsApp" à direita.
-2. **Hero**: título voltado a síndicos e conselhos de condomínio, uma linha de apoio, um único botão para WhatsApp. Fundo escuro com imagem de prédio tratada, no clima do logo.
+2. **Hero**: título voltado a síndicos e conselhos fiscais de condomínio, uma linha de apoio, um único botão para WhatsApp. Fundo escuro com imagem de prédio tratada, no clima do logo.
 3. **Serviços**: cartões com os serviços reais (auditoria e BPO), quantidade conforme o que existir.
 4. **Como funciona**: 3 passos, do diagnóstico inicial ao relatório entregue.
-5. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança) como diferenciais concretos.
-6. **Depoimentos**: só entram se você enviar depoimentos reais.
-7. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
-8. **Rodapé simples**: logo, contato, Instagram.
+5. **Quem assina o trabalho**: credenciais reais (formação, MBA, 25 anos de controladoria) como prova de autoridade.
+6. **Por que a Blomberg**: os quatro pilares do logo (auditoria, análise, processos, confiança) como diferenciais concretos.
+7. **Depoimentos**: só entram se você enviar depoimentos reais.
+8. **Contato final**: bloco escuro com WhatsApp, e-mail e região de atendimento.
+9. **Rodapé simples**: logo, contato, Instagram.
 
-Todos os botões levam ao WhatsApp com mensagem pré-preenchida (ex.: "Olá, sou síndico e quero falar sobre auditoria do meu condomínio").
+Todos os botões levam ao WhatsApp `wa.me/5551999187885` com mensagem pré-preenchida (ex.: "Olá, sou síndico e quero falar sobre auditoria do meu condomínio").
+
 
 ## Identidade visual na página
 
