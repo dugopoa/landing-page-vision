@@ -6,7 +6,9 @@ O Instagram bloqueia leitura automática, mas o logotipo e o print do perfil já
 
 - Nome: **Blomberg Auditoria e BPO** (perfil @bloombergconsultoria, "Consutoria e Assessoria")
 - Nicho: **auditoria condominial**
-- Credenciais do responsável: Bacharel em Ciências Contábeis; MBA em Gestão Financeira e Tributária; 25 anos de Controladoria; 15 anos de (texto cortado no print — preciso do complemento)
+- Responsável: **Patricia Bloomberg**, Bacharel em Ciências Contábeis e MBA em Gestão Financeira e Tributária
+- Experiência: 25 anos de Controladoria; 15 anos de Auditoria
+- Foto da responsável disponível para a seção "Quem assina o trabalho"
 - WhatsApp: **51 99918-7885** (DDD 51, Rio Grande do Sul)
 - Pilares do logo: auditoria, análise, processos, confiança
 - Assinatura: "Transparência. Eficiência. Valor."
