@@ -33,9 +33,8 @@ O Instagram bloqueia leitura automática, mas o logotipo e o print do perfil já
 
 ## O que ainda preciso de você
 
-1. A frase completa dos "15 anos de..." que aparece cortada no perfil.
-2. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
-3. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
+1. Região de atendimento (Porto Alegre e região metropolitana? RS todo? remoto para outros estados?) e e-mail de contato.
+2. Se houver: depoimentos reais de síndicos e número de condomínios atendidos.
 
 Nada de número, prazo ou resultado inventado: o que faltar fica de fora ou marcado para você completar.
 
