@@ -59,14 +59,14 @@ Todos os botões levam ao WhatsApp `wa.me/5551999187885` com mensagem pré-preen
 
 Tokens derivados do logo: fundo azul-marinho profundo, superfícies em azul um tom acima, dourado reservado para detalhes, botões e números, texto claro de alta legibilidade. Título em serifada de personalidade combinando com o logo; apoios e rótulos em caixa alta com espaçamento largo. Cantos discretos, linhas finas douradas como divisores. Sem gradiente roxo, sem visual genérico de startup.
 
-O logo entra como arquivo real no topo e no rodapé (via asset CDN), nunca redesenhado.
+O logo entra como arquivo real no topo e no rodapé (via asset CDN), nunca redesenhado. A foto da responsável também será publicada como asset e usada na seção "Quem assina o trabalho".
 
 ## Detalhes técnicos
 
 - Página em `src/routes/index.tsx` (substitui o placeholder), seções como componentes em `src/components/`.
 - Cores, fontes e raios como tokens em `src/styles.css`; nenhuma cor fixa nos componentes.
 - Fontes carregadas por `<link>` no `src/routes/__root.tsx`.
-- Logo publicado com o CLI de assets e importado pelo ponteiro `.asset.json`; favicon gerado a partir do logo.
+- Logo e foto da responsável publicados com o CLI de assets e importados pelos ponteiros `.asset.json`; favicon gerado a partir do logo.
 - WhatsApp via `https://wa.me/<numero>?text=...`, sem backend.
 - Responsivo mobile-first; imagens com `loading="lazy"` e texto alternativo.
 - SEO: título e descrição próprios da rota, um único H1, HTML semântico, JSON-LD de serviço profissional/negócio local.
