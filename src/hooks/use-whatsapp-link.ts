@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
   whatsappDesktopLink,
@@ -13,7 +14,13 @@ function isMobileUserAgent(): boolean {
 
 export function useWhatsAppLink(message?: string) {
   const isMobileViewport = useIsMobile();
-  const isMobile = isMobileViewport ?? isMobileUserAgent();
+  const [isMobileUA, setIsMobileUA] = useState(false);
+
+  useEffect(() => {
+    setIsMobileUA(isMobileUserAgent());
+  }, []);
+
+  const isMobile = isMobileViewport || isMobileUA;
 
   return {
     href: isMobile ? whatsappMobileLink(message) : whatsappDesktopLink(message),
